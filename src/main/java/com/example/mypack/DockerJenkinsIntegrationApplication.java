@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class DockerJenkinsIntegrationApplication {
-
+	
+	
 	public static Logger logger = LoggerFactory.getLogger(DockerJenkinsIntegrationApplication.class);
 	
 	public static void main(String[] args) {
