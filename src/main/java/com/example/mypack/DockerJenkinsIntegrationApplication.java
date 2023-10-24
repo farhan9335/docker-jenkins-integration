@@ -19,6 +19,7 @@ public class DockerJenkinsIntegrationApplication {
 		logger.info("<--------Main method completed------------------->");
 	}
 	
+	
 	@GetMapping(path = "/welcome")
 	public String welComeMessage() {
 		logger.info("<---------Inside welComeMessage method--------------------->");
